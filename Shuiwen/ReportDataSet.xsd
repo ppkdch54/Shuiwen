@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportDataSet" targetNamespace="http://tempuri.org/ReportDataSet.xsd" xmlns:mstns="http://tempuri.org/ReportDataSet.xsd" xmlns="http://tempuri.org/ReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ReportDataSet" msprop:Generator_UserDSName="ReportDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SwDatas" msprop:Generator_UserTableName="SwDatas" msprop:Generator_RowDeletedName="SwDatasRowDeleted" msprop:Generator_TableClassName="SwDatasDataTable" msprop:Generator_RowChangedName="SwDatasRowChanged" msprop:Generator_RowClassName="SwDatasRow" msprop:Generator_RowChangingName="SwDatasRowChanging" msprop:Generator_RowEvArgName="SwDatasRowChangeEvent" msprop:Generator_RowEvHandlerName="SwDatasRowChangeEventHandler" msprop:Generator_TablePropName="SwDatas" msprop:Generator_TableVarName="tableSwDatas" msprop:Generator_RowDeletingName="SwDatasRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="time" msprop:Generator_UserColumnName="time" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_ColumnPropNameInTable="timeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sum" msprop:Generator_UserColumnName="sum" msprop:Generator_ColumnPropNameInRow="sum" msprop:Generator_ColumnVarNameInTable="columnsum" msprop:Generator_ColumnPropNameInTable="sumColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="data" msprop:Generator_UserColumnName="data" msprop:Generator_ColumnPropNameInRow="data" msprop:Generator_ColumnVarNameInTable="columndata" msprop:Generator_ColumnPropNameInTable="dataColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
